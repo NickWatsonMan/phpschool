@@ -3,7 +3,7 @@
 
 
 
-Для начала работы потребуется приложение XAMPP, его можно скачать по ссылке - https://www.apachefriends.org/ru/index.html 
+Для начала работы потребуется приложение XAMPP, его можно скачать по ссылке - https://www.apachefriends.org/ru/index.html   
 А также Fat Free Framework - https://fatfreeframework.com/3.6/home
 
 Данный проект создан с целью помочь слушателям курса Веб-разработки студенческой организации "Бизнес в стиле .RU", выбравшим направление PHP. Этот небольшой проект затрагивает такие темы, как основы PHP, MVC, Fat Free Framework. 
