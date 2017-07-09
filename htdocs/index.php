@@ -1,6 +1,6 @@
 <?php
 
-// DB connection
+// Подключение к БД
 define("DB_HOST", "localhost");
 define("DB_USER", "root");
 define("DB_PWD", "");
@@ -9,7 +9,7 @@ define("DB_NAME", "test");
 
 define("_EXECUTED",1);
 session_start();
-$f3 = require('lib/base.php');
+$f3 = require('lib/base.php');  //подключение Fat Free Framework
 
 $db = new DB\SQL(
     'mysql:host='.DB_HOST.';port=3306;dbname='.DB_NAME, DB_USER, DB_PWD
@@ -28,7 +28,7 @@ if ((float)PCRE_VERSION<7.9)
 // Load configuration
 $f3->config('config.ini');
 
-//profile
+//Прописывание роутов
 
 $f3->route('GET /',"controllers\home->main");
 
