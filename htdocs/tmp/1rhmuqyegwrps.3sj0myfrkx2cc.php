@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8"> 
     <title>Page Title</title>
 </head>
 <body>
-    <repeat group = "{{@stories}}" value = "{{@story}}">
+    <?php foreach (($stories?:[]) as $story): ?>
         <ul>
-            <li>{{@story[text]}}</li>
+            <li><?= $story[text] ?></li>
         </ul>
-    </repeat>
+    <?php endforeach; ?>
 </body>
 </html> 
 
