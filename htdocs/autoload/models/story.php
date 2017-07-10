@@ -9,7 +9,7 @@
             
             $allStories =  $db->exec("SELECT * FROM story");	
 
-			return $allStories;
+	    return $allStories;
         }
 
     }
