@@ -18,7 +18,7 @@ $db = new DB\SQL(
 $f3->set("DB",$db);
 $f3->set('DEBUG', 0);
 //$f3->set('CACHE',FALSE);
-//$f3->set('UI','ui/views/');
+$f3->set('UI','ui/views/');
 $f3->set('AUTOLOAD','autoload/');
 
 

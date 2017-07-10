@@ -1,13 +1,17 @@
 <?php 
-namespace controllers;
+    namespace controllers;
 
-class home{
+    class home{
+        public function main(){
 
-    public function main(){
-        echo 'Hello World';
-        
+            echo 'Hello World';
+
+            $stories = \models\story::getAllStories();
+
+            var_dump($stories);
+
+            
+        }
     }
-
-}
 
 ?>
