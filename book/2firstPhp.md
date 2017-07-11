@@ -2,6 +2,8 @@
 
 ## Предустановка
 
+Если у вас есть сервер или вы знаете и разбираетесь в этих всяких Апачах, то скипайте часть по настройке сервера.
+
 Для начала необходимо скачать XAMPP по ссылке - https://www.apachefriends.org/ru/index.html 
 
 После того, как вы скачали XAMPP, заранее скачайте фрейворк Fat Free Framework - https://fatfreeframework.com/3.6/home 
@@ -24,12 +26,7 @@
 ![](https://3.downloader.disk.yandex.ru/preview/72648c0514dc278ace2875d0fe1750ff2a505c87078292a91bf5c30bde82f825/inf/8fNBxYxqTPFwr8eRLfe9O4hU8RZL5iFK2zOTn-fnGJHqKZpuilPzs0e2aner9tZkocBTbVzWuEa_wnyT0omXBw%3D%3D?uid=0&filename=Снимок%20экрана%202017-07-10%20в%201.00.39.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=XXL&crop=0)
 
 ## Пишем веб приложение Hello World
-Получить доступ к файловой системе сайта можно разными способами. Через FileZilla или Coda. Путь, который также доступен - это перейти во вкладку "Volumes" в XAMPP и кликнуть "Mount", в результате чего у вас появятся файлы в общем доступе. 
-
-Пример:
-
-![](https://2.downloader.disk.yandex.ru/preview/f89293039f935099bb79abb39f12698d442645d2dbbc9049d8aecf44f2dc7a4e/inf/8fNBxYxqTPFwr8eRLfe9O9_3RofAxGSCCUgNgJDRZlcLO_5saTy4UlIpvaS4GuN493PWbPk8PkAazfn6KeQG_Q%3D%3D?uid=0&filename=Снимок%20экрана%202017-07-10%20в%201.10.32.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=XXL&crop=0)
-
+Создаем файл index.php - сервер начинает читать именно его.  
 
 ```php
 <?php 
@@ -46,6 +43,9 @@
 ?>
 ```
 
-Теперь, если открыть http://localhost:8080/ на сайте при помощи php будет выведена надпись "Hello World"
+Теперь, если открыть http://localhost/ на сайте при помощи php будет выведена надпись "Hello World"
 
-![](https://3.downloader.disk.yandex.ru/preview/036605314182963a5b37b03b0cfd2759eadc7e12e3b481857b9d0a98a1725255/inf/8fNBxYxqTPFwr8eRLfe9O5BHw-gWqXWlYPNIpMIRS-C8G_AtjNBHFWmkAMTZP7S_xYNHT3y4Y1shgdveYDO8GA%3D%3D?uid=0&filename=Снимок%20экрана%202017-07-10%20в%201.27.21.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=XXL&crop=0)
+Это и есть наше с вами первое веб приложение :3
+
+[Следующая глава](https://github.com/NickWatsonMan/phpschool/blob/master/book/3echo.md)
+[Предыдущая глава](https://github.com/NickWatsonMan/phpschool/blob/master/book/1intro.md)
