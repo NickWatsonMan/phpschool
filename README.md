@@ -1,6 +1,7 @@
 ## Курсы по Веб-разработке "Бизнес в стиле .RU"
 ### Направление PHP
 
+<<<<<<< HEAD
 Краткий учбеник по основам PHP: (в процессе написани 0/9)
 * [Введение в PHP]()
 * [Создание первого файла php]()
@@ -11,6 +12,18 @@
 * [Условия (if/else switch)]()
 * [Массивы]()
 * [Функции]()
+=======
+Краткий учбеник по основам PHP:
+* [Введение в PHP](https://github.com/NickWatsonMan/phpschool/blob/master/book/1intro.md)
+* [Создание первого файла php](https://github.com/NickWatsonMan/phpschool/blob/master/book/2firstPhp.md)
+* [Вывод информации на экран, echo](https://github.com/NickWatsonMan/phpschool/blob/master/book/3echo.md)
+* [Типы данных, приведение типов](https://github.com/NickWatsonMan/phpschool/blob/master/book/4types.md)
+* [Создание переменных](https://github.com/NickWatsonMan/phpschool/blob/master/book/5vars.md)
+* [Циклы (while, for, foreach)](https://github.com/NickWatsonMan/phpschool/blob/master/book/6while.md)
+* [Условия (if/else switch)](https://github.com/NickWatsonMan/phpschool/blob/master/book/7if.md)
+* [Массивы](https://github.com/NickWatsonMan/phpschool/blob/master/book/8massiv.md)
+* [Функции](https://github.com/NickWatsonMan/phpschool/blob/master/book/9func.md)
+>>>>>>> cadc58d371b4973f0ec69c6ba43bd4849d795479
 
 Для начала работы потребуется приложение XAMPP, его можно скачать по ссылке - https://www.apachefriends.org/ru/index.html   
 А также Fat Free Framework - https://fatfreeframework.com/3.6/home
