@@ -11,7 +11,6 @@
 * [Условия (if/else switch)](https://github.com/NickWatsonMan/phpschool/blob/master/book/7if.md)
 * [Массивы](https://github.com/NickWatsonMan/phpschool/blob/master/book/8massiv.md)
 * [Функции](https://github.com/NickWatsonMan/phpschool/blob/master/book/9func.md)
->>>>>>> cadc58d371b4973f0ec69c6ba43bd4849d795479
 
 Для начала работы потребуется приложение XAMPP, его можно скачать по ссылке - https://www.apachefriends.org/ru/index.html   
 А также Fat Free Framework - https://fatfreeframework.com/3.6/home
