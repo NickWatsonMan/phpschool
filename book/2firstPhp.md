@@ -47,5 +47,5 @@
 
 Это и есть наше с вами первое веб приложение :3
 
-[Следующая глава](https://github.com/NickWatsonMan/phpschool/blob/master/book/3echo.md)  
+[Следующая глава](https://github.com/NickWatsonMan/phpschool/blob/master/book/4types.md)  
 [Предыдущая глава](https://github.com/NickWatsonMan/phpschool/blob/master/book/1intro.md)
