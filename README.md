@@ -4,7 +4,6 @@
 Краткий учбеник по основам PHP (в процессе 0/9):
 * [Введение в PHP](https://github.com/NickWatsonMan/phpschool/blob/master/book/1intro.md)
 * [Создание первого файла php](https://github.com/NickWatsonMan/phpschool/blob/master/book/2firstPhp.md)
-* [Вывод информации на экран, echo](https://github.com/NickWatsonMan/phpschool/blob/master/book/3echo.md)
 * [Типы данных, приведение типов](https://github.com/NickWatsonMan/phpschool/blob/master/book/4types.md)
 * [Создание переменных](https://github.com/NickWatsonMan/phpschool/blob/master/book/5vars.md)
 * [Циклы (while, for, foreach)](https://github.com/NickWatsonMan/phpschool/blob/master/book/6while.md)
